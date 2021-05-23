@@ -8,9 +8,10 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd"> 
-		<context:component-scan base-package="com.spring.*"/>
-	   <!-- 开启aop注解方式,默认为false -->
-	   <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+		<context:component-scan base-package="com.spring.service"/>
+		<!-- <context:annotation-config/> -->
+	   <!-- 配置织入@Aspectj切面,默认为false -->
+	   <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy> 
 </beans>
 
 

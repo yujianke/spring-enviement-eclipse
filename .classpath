@@ -13,5 +13,10 @@
 	<classpathentry kind="lib" path="lib/aspectjrt.jar"/>
 	<classpathentry kind="lib" path="lib/aspectjtools.jar"/>
 	<classpathentry kind="lib" path="lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/mchange-commons-java-0.2.12.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.39.jar"/>
+	<classpathentry kind="lib" path="lib/druid-1.1.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -7,7 +7,7 @@ import com.lzl.spring.entity.Person;
  
 public class SpringTest {
 	public static void main(String[] args) {
-			ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+			ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext2.xml");
 			Person person = context.getBean("person", Person.class);
 			System.out.println(person.toString());
 	}
